@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /unlinked_for_now/
+permalink: /
 title: "Cooper's Home Page"
 hidden: true
 header:
