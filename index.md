@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "Navigating the Noise"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -8,12 +8,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: /images/wall.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+    - label: "About me"
+      url: "/about/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Thanks for stopping by. Here you can learn more about me and what I am up to. To get in touch, click the link below."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'I enjoy using data to solve problems and spend much of my time continuing to learn new tools, languages, and methodologies that will help me do so. Through my personal, academic, and professional projects I have learned that while working on a problem, you usually uncover more questions than answers. Navigating the noise is key to finding solutions.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
