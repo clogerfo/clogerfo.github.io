@@ -6,10 +6,10 @@ header:
   overlay_image: /images/nyc_header.jpg
   actions:
     - label: "About me"
-    url: "/about/"
+      url: "/about/"
 excerpt: "Click below for info about me."
 intro:
-  -excerpt: 'Thanks for stopping by. Here you can learn more about me and what I'm up to.'
+  - excerpt: 'Thanks for stopping by. Here you can learn more about me and what I'm up to.'
 feature_row1:
   - image_path: /images/strikezone.png
     alt: "placeholder image 2"
@@ -24,6 +24,3 @@ feature_row1:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="feature_row1" type="left" %}
-
-
-
