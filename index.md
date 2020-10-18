@@ -15,11 +15,11 @@ excerpt: "Thanks for stopping by. Here you can learn more about me and what I am
 intro: 
   - excerpt: 'I enjoy using data to solve problems and spend much of my time continuing to learn new tools, languages, and methodologies that will help me do so. Through my personal, academic, and professional projects I have learned that while working on a problem, you usually uncover more questions than answers.'
 feature_row:
-  - image_path: /images/bes.jpg
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /images/strikezone.png
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Placeholder 2"
@@ -31,11 +31,11 @@ feature_row:
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /images/bes.jpg
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Finding the Strikezone""
-    excerpt: 'Using machine learning to re-think the strikezone'
-    url: "/strikezone/"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
@@ -62,6 +62,8 @@ feature_row4:
 
 {% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
 
 {% include feature_row id="feature_row4" type="left" %}
