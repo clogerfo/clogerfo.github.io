@@ -5,6 +5,6 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /images/nyc_header.jpg
-excerpt: </br></br></br></br>
+excerpt: "                                                                                                      "
 ---
 
