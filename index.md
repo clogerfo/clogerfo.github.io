@@ -1,6 +1,5 @@
 ---
 layout: splash
-permalink: /
 hidden: true
 header:
   overlay_image: /images/nyc_header.jpg
@@ -18,7 +17,6 @@ feature_row1:
     url: "/strikezone/"
     btn_label: "Read more"
     btn_class: "btn--primary"
-
 ---
 
 {% include feature_row id="intro" type="center" %}
