@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /home/
 hidden: true
 header:
   overlay_image: /images/nyc_header.jpg
