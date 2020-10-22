@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Noise"
+title: "Welcome"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -12,11 +12,12 @@ header:
       url: "/about/"
 excerpt: "Thanks for stopping by. Here you can learn more about me and what I am up to. To get in touch, click the link below."
 intro: 
-  - excerpt: 'I enjoy using data to solve problems and spend much of my time continuing to learn new tools, languages, and methodologies that will help me do so. Through my personal, academic, and professional projects I have learned that while working on a problem, you usually uncover more questions than answers.'
+  - excerpt: 'I enjoy using data to solve problems. and spend much of my time continuing to learn new tools, languages, and methodologies that will help me do so. Through my personal, academic, and professional projects I have learned that while working on a problem, you usually uncover more questions than answers.'
 feature_row:
   - image_path: /images/nyc_header_th.jpg
     alt: "placeholder image 1"
     title: "About Me"
+    excerpt: "Here you'll find info about me and how to contact me."
     url: "/about/"
     btn_label: "About me"
     btn_class: "btn--primary"
@@ -29,12 +30,12 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /images/strikezone_th.png
     title: "Finding the Strikezone"
-    excerpt: "Check out my most recent post about using machine learning to re-think the strikezone."
+    excerpt: "Check out my most recent post. I use machine learning to re-think the strikezone."
     url: "/strikezone/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /images/strikezone.png
+  - image_path: /images/strikezone_th.png
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
     excerpt: 'Check out my most recent post about using machine learning to re-think the strikezone.'
