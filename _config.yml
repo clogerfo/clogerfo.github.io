@@ -96,12 +96,12 @@ author:
   name             : "Cooper Logerfo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Thanks for stopping by. Here you can learn more about me and what I'm up to."
-  location         : "NY/NJ"
-  email            :
+  location         : "NJ/NY"
+  email            : "cooper.logerfo@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:cooper.logerfo@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/cooperlogerfo/"

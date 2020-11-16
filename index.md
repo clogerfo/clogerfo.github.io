@@ -12,7 +12,7 @@ header:
       url: "/about/"
 excerpt: "Thanks for stopping by. Here you can learn more about me and what I am up to. To get in touch, click the link below."
 intro: 
-  - excerpt: 'I enjoy using data to solve problems. and spend much of my time continuing to learn new tools, languages, and methodologies that will help me do so. Through my personal, academic, and professional projects I have learned that while working on a problem, you usually uncover more questions than answers.'
+  - excerpt: 'I use data to build strategies and solve problems. I use this page to share the new tools, languages, and methodlogies I am continually trying to learn.'
 feature_row:
   - image_path: /images/nyc_header_th.jpg
     alt: "placeholder image 1"
