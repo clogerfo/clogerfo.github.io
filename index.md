@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "Hello"
 layout: splash
 permalink: /
 hidden: true
@@ -9,30 +9,31 @@ header:
   actions:
     - label: "About me"
       url: "/about/"
-excerpt: >
-  "Thanks for stopping by. Here you can learn more about me and what I'm up to. To get in touch, click the link below."
+excerpt: "Thanks for stopping by. Here you can learn more about me and what I'm up to. To get in touch, click the link below."
+intro: 
+  - excerpt: 'I use data to build strategies and solve problems. I use this page to share the new tools, languages, and methodologies I am continually trying to learn.'
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /images/nyc_header_th.jpg
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    title: "About Me"
+    excerpt: "Here you'll find info about me and how to contact me."
+    url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+    btn_label: "About me"
+  - image_path: /images/viz_th.png
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    title: "View My Projects"
+    excerpt: "Here I post my data analysis and visualization projects."
+    url: "/project-posts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "Projects"
+  - image_path: /images/strikezone_th.png
+    alt: "Finding the Strike Zone"
+    title: "Finding the Strike Zone"
+    excerpt: "Check out my most recent post. I use machine learning to re-think the Strike Zone."
+    url: "/strikezone/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Read More"     
 ---
 
 {% include feature_row %}
