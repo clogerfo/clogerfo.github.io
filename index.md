@@ -1,71 +1,38 @@
 ---
-title: "Welcome"
 layout: splash
 permalink: /
-date: 2016-03-23T11:48:41-04:00
+hidden: true
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /images/wall.jpg
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "About me"
-      url: "/about/"
-excerpt: "Thanks for stopping by. Here you can learn more about me and what I'm up to. To get in touch, click the link below."
-intro: 
-  - excerpt: 'I use data to build strategies and solve problems. I use this page to share the new tools, languages, and methodologies I am continually trying to learn.'
+    - label: "<i class='fas fa-download'></i> Install now"
+      url: "/docs/quick-start-guide/"
+excerpt: >
+  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0">Latest release v4.21.0</a></small>
 feature_row:
-  - image_path: /images/nyc_header_th.jpg
-    alt: "placeholder image 1"
-    title: "About Me"
-    excerpt: "Here you'll find info about me and how to contact me."
-    url: "/about/"
-    btn_label: "About me"
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
+    title: "Super customizable"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/docs/configuration/"
     btn_class: "btn--primary"
-  - image_path: /images/viz_th.png
-    alt: "placeholder image 2"
-    title: "View My Projects"
-    excerpt: "Here I post my data analysis and visualization projects."
-    url: "/project-posts/"
-    btn_label: "Projects"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "fully responsive"
+    title: "Responsive layouts"
+    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    url: "/docs/layouts/"
     btn_class: "btn--primary"
-  - image_path: /images/strikezone_th.png
-    title: "Finding the Strike Zone"
-    excerpt: "Check out my most recent post. I use machine learning to re-think the Strike Zone."
-    url: "/strikezone/"
-    btn_label: "Read More"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "100% free"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    url: "/docs/license/"
     btn_class: "btn--primary"
-feature_row2:
-  - image_path: /images/strikezone_th.png
-    alt: "placeholder image 2"
-    title: "Finding the Strike Zone"
-    excerpt: 'Check out my most recent post about using machine learning to re-think the strikezone.'
-    url: "/strikezone/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /images/viz_th.png
-    alt: "placeholder image 2"
-    title: "Animated Bar Chart Visualizing US Covid-18 Cases"
-    excerpt: 'Using GGplot2 and GGanimate to create an animated bar chart.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /images/shiny_th.png
-    alt: "placeholder image 2"
-    title: "Analysis on the MLB Labor Market"
-    excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors help explain the value and length of a player's contract.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_label: "Learn more"      
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 {% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row4" type="left" %}
