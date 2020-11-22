@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: ""
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -10,9 +10,9 @@ header:
   actions:
     - label: "About me"
       url: "/about/"
-excerpt: "Thanks for stopping by. Here you can learn more about me and what I am up to. To get in touch, click the link below."
+excerpt: "Thanks for stopping by. Here you can learn more about me and what I'm up to. To get in touch, click the link below."
 intro: 
-  - excerpt: 'I use data to build strategies and solve problems. I use this page to share the new tools, languages, and methodlogies I am continually trying to learn.'
+  - excerpt: 'I use data to build strategies and solve problems. I use this page to share the new tools, languages, and methodologies I am continually trying to learn.'
 feature_row:
   - image_path: /images/nyc_header_th.jpg
     alt: "placeholder image 1"
@@ -26,10 +26,10 @@ feature_row:
     title: "View My Projects"
     excerpt: "Here I post my data analysis and visualization projects."
     url: "/project-posts/"
-    btn_label: "Read More"
+    btn_label: "Projects"
     btn_class: "btn--primary"
   - image_path: /images/strikezone_th.png
-    title: "Finding the Strikezone"
+    title: "Finding the Strike Zone"
     excerpt: "Check out my most recent post. I use machine learning to re-think the strikezone."
     url: "/strikezone/"
     btn_label: "Read More"
@@ -37,25 +37,25 @@ feature_row:
 feature_row2:
   - image_path: /images/strikezone_th.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
+    title: "Finding the Strike Zone"
     excerpt: 'Check out my most recent post about using machine learning to re-think the strikezone.'
     url: "/strikezone/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /images/viz_th.png
+  - image_path: /images/covid_viz_th.png
     alt: "placeholder image 2"
-    title: "Visualizing Twitter's Reaction to a Hurricane"
-    excerpt: 'Using Twitter data to visualize reactions to a hurricane.'
-    url: "#test-link"
+    title: "Animated Bar Chart Visualizing US Covid-18 Cases"
+    excerpt: 'Using GGplot2 and GGanimate to create an animated bar chart.'
+    url: "/Coronavirus/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /images/shiny_th.png
     alt: "placeholder image 2"
     title: "Analysis on the MLB Labor Market"
-    excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors explain the most of the contract a free agent player signs.'
-    url: "#test-link"
+    excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors help explain the value and length of a player's contract.'
+    url: "/Undergrad-Thesis/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
