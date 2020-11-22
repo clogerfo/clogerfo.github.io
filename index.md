@@ -1,4 +1,5 @@
 ---
+title: "Welcome"
 layout: splash
 permalink: /
 hidden: true
@@ -6,11 +7,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/wall.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "About me"
+      url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0">Latest release v4.21.0</a></small>
+  "Thanks for stopping by. Here you can learn more about me and what I'm up to. To get in touch, click the link below."
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
