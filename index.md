@@ -1,5 +1,5 @@
 ---
-title: "Hello"
+title: "Welcome"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -30,7 +30,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /images/strikezone_th.png
     title: "Finding the Strike Zone"
-    excerpt: "Check out my most recent post. I use machine learning to re-think the strikezone."
+    excerpt: "Check out my most recent post. I use machine learning to re-think the Strike Zone."
     url: "/strikezone/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -43,11 +43,11 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /images/covid_viz_th.png
+  - image_path: /images/viz_th.png
     alt: "placeholder image 2"
     title: "Animated Bar Chart Visualizing US Covid-18 Cases"
     excerpt: 'Using GGplot2 and GGanimate to create an animated bar chart.'
-    url: "/Coronavirus/"
+    url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
@@ -55,7 +55,7 @@ feature_row4:
     alt: "placeholder image 2"
     title: "Analysis on the MLB Labor Market"
     excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors help explain the value and length of a player's contract.'
-    url: "/Undergrad-Thesis/"
+    url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
