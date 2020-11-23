@@ -34,39 +34,6 @@ feature_row:
     url: "/strikezone/"
     btn_class: "btn--primary"
     btn_label: "Read More"
-feature_row2:
-  - image_path: /images/strikezone_th.png
-    alt: "placeholder image 2"
-    title: "Finding the Strike Zone"
-    excerpt: 'Check out my most recent post about using machine learning to re-think the strikezone.'
-    url: "/strikezone/"
-    btn_class: "btn--primary"
-    btn_label: "Read More"
-feature_row3:
-  - image_path: /images/covid_viz_th.png
-    alt: "placeholder image 2"
-    title: "Animated Bar Chart Visualizing US Covid-18 Cases"
-    excerpt: 'Using GGplot2 and GGanimate to create an animated bar chart.'
-    url: "/Coronavirus/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /images/shiny_th.png
-    alt: "placeholder image 2"
-    title: "Analysis on the MLB Labor Market"
-    excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors help explain the value and length of a player's contract.'
-    url: "/MLB-FA-Analysis/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row4" type="left" %}
 
