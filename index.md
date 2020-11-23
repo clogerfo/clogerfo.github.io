@@ -42,6 +42,14 @@ feature_row2:
     url: "/strikezone/"
     btn_class: "btn--primary"
     btn_label: "Read More"
+feature_row3:
+  - image_path: /images/covid_viz_th.png
+    alt: "placeholder image 2"
+    title: "Animated Bar Chart Visualizing US Covid-18 Cases"
+    excerpt: 'Using GGplot2 and GGanimate to create an animated bar chart.'
+    url: "/Coronavirus/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -50,4 +58,5 @@ feature_row2:
 
 {% include feature_row id="feature_row2" type="left" %}
 
+{% include feature_row id="feature_row3" type="left" %}
 
