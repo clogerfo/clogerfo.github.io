@@ -34,14 +34,6 @@ feature_row:
     url: "/strikezone/"
     btn_class: "btn--primary"
     btn_label: "Read More"
-feature_row2:
- - image_path: /images/strikezone_th.png
-    alt: "placeholder image 2"
-    title: "Finding the Strike Zone"
-    excerpt: 'Check out my most recent post about using machine learning to re-think the strikezone.'
-    url: "/strikezone/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
