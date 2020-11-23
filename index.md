@@ -50,6 +50,14 @@ feature_row3:
     url: "/Coronavirus/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row4:
+  - image_path: /images/shiny_th.png
+    alt: "placeholder image 2"
+    title: "Analysis on the MLB Labor Market"
+    excerpt: 'In this post I analyze Major League Baseball free agents and use different regression techniques to identify what factors help explain the value and length of a player's contract.'
+    url: "/MLB-FA-Analysis/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -59,3 +67,6 @@ feature_row3:
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="left" %}
+
