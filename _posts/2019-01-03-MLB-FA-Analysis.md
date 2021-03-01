@@ -1,6 +1,6 @@
 ---
 title: "Predicting MLB Free Agent Salaries"
-date: 2018-12-3
+date: 2019-1-3
 ---
 
 The code and data for this project can be found at this <a href = "https://github.com/CooperLogerfo/MLB-Free-Agents" > repository. </a>

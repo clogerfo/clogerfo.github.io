@@ -1,15 +1,8 @@
 ---
-title: "Using Classification to Re-think the Strikezone"
+title: "Using Classification to Re-think the Strike Zone"
 date: 2020-10-15
-excerpt: "Predicting strikes"
+excerpt: "Using machine learning to predict balls and strikes"
 ---
-
-# H1 Heading
-
-## H2 Heading
-
-**Re-thinking** the strike zone use data from MLB games. 
-
 
 You can use any dataset of strikes and balls to replicate this analysis. So long as the data has pitch coordinates (px, pz) and outcomes (strike or ball). Statcast data can be found [here](https://baseballsavant.mlb.com/statcast_search). The data I used and all of my code can be found at the [project's repository](https://github.com/clogerfo/predicting_strikes). The code for cleaning/preparing the data is included in the R script. Credit to Jim Albert's [(Exploring Baseball Data with R)](https://baseballwithr.wordpress.com/author/bayesball/) [code](https://gist.github.com/bayesball) for building the strike zone visualization.
 
@@ -29,7 +22,6 @@ So, you can imagine every possible location in our sample space will have an ass
 
 Here's how we can do that.
 All code at [repo](https://github.com/clogerfo/predicting_strikes).
-
 
 I began by filtering down the data so that we had only pitches that were called balls or strikes by an umpire (removed any pitches where a batter made contact).
 
